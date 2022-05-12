@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"> 
     <link rel="stylesheet" href="./assets/css/style.css"/>
     <title>Rock or Stock</title>
 </head>
@@ -16,15 +16,26 @@
         <p>You will then be notified if the weather was nice enough on the shoe release date to wear the shoe or keep it stock.</p>
     </header>
     <main>
-        <section class="criteria">
-            <div id="city"></div>
-            <div id="shoe"></div>
+        <section class="columns">
+            <div id="city" class="column">
+                <p>selected city</p>
+            </div>
+            <div id="shoe" class="column">
+                <p>selected shoe</p>
+            </div>
+        </section>
             <button id="search">Search</button>
         </section>
-        <section class="results">
-            <div id="shoe-info"></div>
-            <div id="shoe-photo"></div>
-            <div id="release-weather"></div>
+        <section class="columns" >
+            <div id="shoe-info" class="column">
+                <p>shoe info</p>
+            </div>
+            <div id="shoe-photo" class="column">
+                <p>shoe photo</p>
+            </div>
+            <div id="release-weather" class="column">
+                <p>release date weater</p>
+            </div>
         </section>
     </main>
     <script src="./assets/js/script.js"> </script>

@@ -1,7 +1,7 @@
 header{
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    background-color: aquamarine;
+    text-align: center;
+    margin: 0px auto;
 }
 .modal{
     align-items: center;

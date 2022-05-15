@@ -9,24 +9,31 @@
     <title>Rock or Stock</title>
 </head>
 <body>
-    <header class="modal">
-        <div class="modal-content">
-        <h1>Welcome to Rock or Stock</h1>
-        <p>Here you will be able to select a city and select your favorite shoe.</p>
-        <p> Once selected you will be provided with an image of your selected shoe along with the release date.</p> 
-        <p>You will then be notified if the weather was nice enough on the shoe release date to wear the shoe or keep it stock.</p>
+    <div id="modal-display" class="modal">
+        <div class="modal-background">
+            <div id="intro" class="modal-content">
+                <h1>Welcome to Rock or Stock</h1>
+                <p> 
+                Here you will be able to select a city and select your favorite shoe. 
+                Once selected you will be provided with an image of your selected shoe along with the release date.
+                You will then be notified if the weather was nice enough on the shoe release date to wear the shoe or keep it stock.
+                </p>
+            </div>
+            <button id="close-modal" class="modal-close is-large" aria-label="close"></button>
         </div>
-    </header>
+    </div>    
     <main>
         <section class="columns">
-            <div id="city" class="column">
+            <div class="column">
+                <input id="city" placeholder="please select a city">
                 <p>selected city</p>
             </div>
-            <div id="shoe" class="column">
+            <div class="column">
+                <input id="shoe" placeholder="please select a shoe">
                 <p>selected shoe</p>
             </div>
         </section>
-            <button id="search" class="button is-primary">Search</button>
+            <button id="search-btn" class="button is-primary">Search</button>
         </section>
         <section class="columns" >
             <div id="shoe-info" class="column">
@@ -40,6 +47,8 @@
             </div>
         </section>
     </main>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="./assets/js/script.js"> </script>
 </body>
 </html>

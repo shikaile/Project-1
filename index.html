@@ -25,33 +25,36 @@
             <button id="close-modal" class="modal-close is-large" aria-label="close"></button>
         </div>
     </div>    
-    <main class="container">
-        <section class="columns is-vcentered">
-            <div class="column">
-                <input id="city" placeholder="please select a city">
-                <p>selected city</p>
-            </div>
-            <div class="column">
-                <input id="shoe" placeholder="please select a shoe">
-                <p>selected shoe</p>
-            </div>
-        </section>
-            <button id="search-btn" class="button is-primary">Search</button>
-        </section>
-        <section class="columns is-vcentered">
-            <div id="shoe-info" class="column">
-                <p>shoe info</p>
-            </div>
-            <div id="shoe-photo" class="column">
-                <p>shoe photo</p>
-            </div>
-            <div id="release-weather" class="column">
-                <p>release date weather</p>
-            </div>
-        </section>
-    </main>
+       
+    <section class="columns is-vcentered">
+        <div class="column">
+            <input id="city" placeholder="please select a city">
+            <p>selected city</p>
+        </div>
+            
+        <div class="column">
+            <input id="shoe" placeholder="please select a shoe">
+            <p>selected shoe</p>
+        </div>
+    </section>
+
+    <button id="search-btn" class="button is-primary">Search</button>
+       
+    <section class="columns is-vcentered">
+        <div id="shoe-info" class="column">
+            <p>shoe info</p>
+        </div>
+        <div id="shoe-photo" class="column">
+            <p>shoe photo</p>
+        </div>
+        <div id="release-weather" class="column">
+            <p>release date weather</p>
+        </div>
+    </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- historical weather api -->
+    <script src="http://api.openweathermap.org/data/2.5/forecast?id=524901&appid={1584f1fc8718a9316b1ad92dfdac5164}"></script>
     <script src="./assets/js/script.js"> </script>
 </body>
 </html>

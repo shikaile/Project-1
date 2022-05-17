@@ -25,14 +25,16 @@ $ (document).ready(function() {
             "X-RapidAPI-Key": "4ab2f5ddb3msha930eb28c1b788dp1a54bajsna218795ca125"
         }
     };
-    // $.ajax(settings).done(function (response) {
-    //     for (var i = 0; i < response.results.length; i++) {
-    //         var p = $("<div>");
-    //         var img = $('<img>')
-    //         p.text(response.results[i].releaseDate)
-    //         img.attr("src", response.results[i].media.smallImageUrl)
-    //         $('#shoe-options').append(p);
-    //         $('#shoe-options').append(img);
-    //     }
-    //     console.log(response);
-    // });
+    $.ajax(settings).done(function (response) {
+        for (var i = 0; i < response.results.length; i++) {
+            var p = $("<div>");
+            var img = $('<img>')
+            p.text(response.results[i].releaseDate)
+            img.attr("src", response.results[i].media.smallImageUrl)
+            // $('#shoe-options').append(p);
+            $('#shoe-options').append(img);
+            // img.onclick = console.log(response.results[i].releaseDate)
+
+        }
+        console.log(response);
+    });

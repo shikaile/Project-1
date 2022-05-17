@@ -33,8 +33,14 @@ $ (document).ready(function() {
             img.attr("src", response.results[i].media.smallImageUrl)
             // $('#shoe-options').append(p);
             $('#shoe-options').append(img);
-            // img.onclick = console.log(response.results[i].releaseDate)
 
+            //console logs release dates of shoes, should only console log release date of clicked shoe
+            img.onclick = console.log(response.results[i].releaseDate)
         }
         console.log(response);
+    });
+
+//event listener on click of shoe-options div does not work porperly 
+    $('#shoe-options').click(function(){
+        console.log(response.results[i].releaseDate)
     });

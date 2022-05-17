@@ -42,7 +42,8 @@ body{
 }
 
 .wrapper{
-    max-height: 120px;
+    max-height: 400px;
+    max-width: 500px;
     border: 1px solid #ddd;
     display: flex;
     overflow-x: auto;
@@ -53,10 +54,9 @@ body{
 }
 
 .wrapper .item{
-    width: 110px;
+    width: 500px;
     height: 110px;
     line-height: 110px;
     text-align: center;
     background-color: #ddd;
-    margin-right: 2px;
 }

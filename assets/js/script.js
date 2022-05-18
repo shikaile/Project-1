@@ -59,3 +59,37 @@ $ (document).ready(function() {
     $.ajax(setting).done(function (response) {
         console.log(response);
     });
+
+
+// $("#search-btn").click(function(){
+//     function showModal(){
+//         $('#wearshoe').show()
+//         }
+//     showModal();
+    
+
+//     function hideModal(){
+//         $('#wearshoe').hide()   
+//         }
+//         $('#close-modal').click(function(){
+//         hideModal();
+//     })
+//     });
+
+//     $("#search-btn").click(function(){
+//     function showModal(){
+//         $('#wearshoes').show()
+//         }
+//     showModal();
+    
+
+//     function hideModal(){
+//         $('#wearshoe').hide()   
+//         }
+//         $('#close-modal').click(function(){
+//         hideModal();
+//     })
+//     });
+ 
+
+

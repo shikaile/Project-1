@@ -1,17 +1,16 @@
 header{
-    background: rgba(255, 255, 255, 0.71);
+    background: rgba(5, 247, 174, 0.644);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(11.3px);
-    -webkit-backdrop-filter: blur(11.3px);
+    backdrop-filter: blur(13.8px);
+    -webkit-backdrop-filter: blur(13.8px);
     border: 1px solid rgba(255, 255, 255, 0.2);
     text-align: center;
 }
 body{
     margin: 0 auto;
     justify-content: center;
-    background-color: rgba(127, 255, 227, 0.753);
-
+    background-image: url(/assets/images/animesher.com_shoes-90s-gif-1638060.gif);
 }
 .modal{
     align-items: center;
@@ -77,11 +76,11 @@ body{
 }
 
 .column{
-    background: rgba(255, 255, 255, 0.7);
+    background: rgba(5, 247, 174, 0.644);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(11.3px);
-    -webkit-backdrop-filter: blur(11.3px);
+    backdrop-filter: blur(13.8px);
+    -webkit-backdrop-filter: blur(13.8px);
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 

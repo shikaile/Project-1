@@ -31,7 +31,7 @@ $ (document).ready(function() {
             var img = $('<img>')
             p.text(response.results[i].releaseDate)
             img.attr("src", response.results[i].media.smallImageUrl)
-            // $('#shoe-options').append(p);
+            $('#shoe-options').append(p);
             $('#shoe-options').append(img);
 
             //console logs release dates of shoes, should only console log release date of clicked shoe

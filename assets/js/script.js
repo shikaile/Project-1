@@ -35,12 +35,12 @@ $ (document).ready(function() {
             $('#shoe-options').append(img);
 
             //console logs release dates of shoes, should only console log release date of clicked shoe
-            img.onclick = console.log(response.results[i].releaseDate)
+            // img.onclick = console.log(response.results[i].releaseDate)
         }
-        console.log(response);
+        // console.log(response);
     });
 
 //event listener on click of shoe-options div does not work porperly 
-    $('#shoe-options').click(function(){
-        console.log(response.results[i].releaseDate)
-    });
+    // $('#shoe-options').click(function(){
+    //     console.log(response.results[i].releaseDate)
+    // });

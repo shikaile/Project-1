@@ -13,4 +13,4 @@
    <li>We went ahead and found a historical weather API
    <li>Once this was completed we choose a layout that we wanted
    
- <h3> <b>Creators Caleb Stokes, Sylvestor Brandon, and Eduardo Delgado
+ <h3> <b>Creators: Caleb Stokes, Sylvestor Brandon, and Eduardo Delgado

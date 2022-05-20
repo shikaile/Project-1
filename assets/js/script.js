@@ -90,6 +90,3 @@ $("#search-btn").click(function(){
         hideModal();
     })
     });
- 
-
-

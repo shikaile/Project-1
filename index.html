@@ -29,12 +29,11 @@
     <section class="columns is-vcentered">
         <div class="column">
             <div class="wrapper">
-                <div class="city">
+                <div id="city-options" class="city">
                     <img alt="city" src="./assets/images/globe.png"/>
                 </div>
             </div>
-            <input id="city" placeholder="please select a city">
-            <p>selected city</p>
+            <button id="city-btn" class="column button is-info" > select random city </button> 
         </div>
             
         <div class="column">
@@ -42,26 +41,23 @@
                 <div id="shoe-options" class="media-element"></div>
                
             </div>
-            <input id="shoe" placeholder="please select a shoe">
-            <p>selected shoe</p>
+            <button id="shoe-btn" class="column button is-info" > select random shoe </button> 
+            
         </div>
     </section>
     
+    <section class="columns is-vcentered">
+        <div id="selected-city" class="column"></div>
+
+        <div id="release-date" class="column"></div>
+
+        <div id="release-weather" class="column"></div>
+    </section>
+
     <div class="columns" is-vcentered>
         <button id="search-btn" class="button is-primary">Search</button>  
     </div>
     
-    <section class="columns is-vcentered">
-        <div id="shoe-info" class="column">
-            <p>shoe info</p>
-        </div>
-        <div id="shoe-photo" class="column">
-            <p>shoe photo</p>
-        </div>
-        <div id="release-weather" class="column">
-            <p>release date weather</p>
-        </div>
-    </section>
 
     <div class="columns is vcentered">
         <div class="column">
